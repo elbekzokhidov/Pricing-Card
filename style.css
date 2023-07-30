@@ -1,0 +1,105 @@
+/* nunito-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/nunito-v25-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunito-v25-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/nunito-v25-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  background-color: #202842;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1062px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.hero_content {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  max-width: 962px;
+  border-radius: 8px;
+}
+.container__list {
+  padding: 32px;
+  border-radius: 8px;
+}
+.container__list:hover {
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.hero__link {
+  padding: 8px 16px;
+  background: rgba(32, 40, 66, 1);
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 50px;
+}
+.container__list h1 {
+  margin-bottom: 4px;
+}
+.container__list p {
+  margin-bottom: 16px;
+}
+.container__list h2 {
+  margin-bottom: 19px;
+}
+.container__list li {
+  margin-bottom: 6px;
+}
+.hero__link {
+  margin-top: 32px;
+}
